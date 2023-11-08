@@ -36,19 +36,19 @@ function About() {
             the guiding principles.
           </p>
           <p className="about-grid-info-text">
-            I am versatile expert in both front-end and back-end development,
+            {`I am versatile expert in both front-end and back-end development,
             crafting captivating user interfaces and architecting robust server
             systems. Their vision and proficiency make them a driving force
             behind innovative web solutions, sculpting the digital future
-            through each line of code.
+            through each line of code.`}
           </p>
           <p className="about-grid-info-text">
-            Join me at the forefront of tech evolution, where I embrace new
+            {`Join me at the forefront of tech evolution, where I embrace new
             challenges, enriching Infosys and the broader tech community. Let's
-            bring your ideas to life, one line of code at a time.
+            bring your ideas to life, one line of code at a time.`}
           </p>
           <p className="about-grid-info-text">
-            Here are a few technologies I've been working with recently:
+            {`Here are a few technologies I've been working with recently:`}
           </p>
           <ul className="about-grid-info-list">
             {technologies.map((tech: any) => {
